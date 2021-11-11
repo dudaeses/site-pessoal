@@ -1,0 +1,174 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin:0px !important;
+    padding: 0px !important;
+}
+
+#tudo {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.247);
+    width: 100%;
+    height: 100%
+}
+
+img.displayed{
+    display: block;
+    margin-left: 15px;
+    margin-right: auto;
+    float: left;
+    margin-top: 20px;
+    border-radius: 5%;
+}
+
+#conteudo{  
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#conteudo h1{
+    font-size: 18px
+}
+
+#conteudo p{
+    font-size: 14px;
+    line-height: 2px;
+}
+
+#menu ul{
+    padding:10px;
+    margin:0px;
+    list-style: none;
+    text-align: center;
+    width: 1346px;
+    background-color: rgb(0, 0, 0);
+}
+
+#menu ul li{
+    display: inline
+}
+
+#menu ul li a{
+    padding: 2px 10px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#menu ul li a:hover{
+    color: white;
+    border-bottom: 2px solid white
+}
+
+#info{
+    float: left;
+    margin-left: 15px;
+    margin-top: 70px
+}
+
+#sobremim{
+    display: block;
+    padding: 10px;
+    margin-top: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#descricao{
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+#hobbies{
+    border-style: solid;
+    border-color: black;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    padding-bottom: 23%;
+    margin-bottom: 20px;
+}
+
+#hobbies h1{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#musica{
+    border-style: solid;
+    border-color: black;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    padding-bottom: 23%;
+    margin-bottom: 20px;
+}
+
+#musica h1{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#amigos{
+    border-style: solid;
+    border-color: black;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    padding-bottom: 23%;
+    margin-bottom: 20px;
+}
+
+#amigos h1{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+img.albumone{
+    display: block;
+    margin-left: 80px;
+    margin-right: 10px;
+    float: left;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+
+img.albumtwo{
+    display: block;
+    margin-left: 80px;
+    margin-right: 10px;
+    float: left;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+
+img.album{
+    display: block;
+    margin-right: 10px;
+    float: left;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+
+
+

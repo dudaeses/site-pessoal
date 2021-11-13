@@ -8,9 +8,11 @@ body {
 #tudo {
     display: block;
     background-color: rgba(255, 255, 255, 0.247);
-    width: 100%;
-    height: 100%
+    width: 1366px;
+    border-style: solid;
+    border-color: black;
 }
+
 
 img.displayed{
     display: block;
@@ -78,13 +80,23 @@ img.displayed{
     margin-right: 5px;
 }
 
-#descricao{
+#pets{
+    border-style: solid;
+    border-color: black;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    padding-bottom: 23%;
+    margin-bottom: 20px;
+}
+
+#pets h1{
     display: block;
-    padding: 10px;
-    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
 }
 
 #hobbies{
@@ -106,25 +118,6 @@ img.displayed{
     margin-top: 15px;
 }
 
-#musica{
-    border-style: solid;
-    border-color: black;
-    margin-right: 80px;
-    margin-left: 80px;
-    margin-bottom: 20px;
-    padding-bottom: 23%;
-    margin-bottom: 20px;
-}
-
-#musica h1{
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 15px;
-}
-
 #amigos{
     border-style: solid;
     border-color: black;
@@ -136,6 +129,46 @@ img.displayed{
 }
 
 #amigos h1{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#artistas{
+    margin-top: 15px;
+    border-style: solid;
+    border-color: black;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    padding-bottom: 42%;
+    margin-bottom: 20px;
+}
+
+#artistas h1{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#albums{
+    border-style: solid;
+    border-color: black;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    padding-bottom: 23%;
+    margin-bottom: 20px;
+    padding-bottom: 42%;
+}
+
+#albums h1{
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -171,12 +204,13 @@ img.album{
 }
 
 footer{
-    background-color: #777777;
+    background-color: #000000;
     padding: 10px;
 }
 
 footer h1{
     font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
     margin-left: 5px;
     text-decoration-style: bold;
     font-size: 15px;

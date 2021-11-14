@@ -1,42 +1,25 @@
+/* GERAL */
 
-body {
+*{
+    font-family: 'Varela Round', sans-serif;
+    }
+
+body{
     background-color: rgb(255, 255, 255);
     margin:0px !important;
     padding: 0px !important;
 }
 
-#tudo {
+#tudo{
     display: block;
     background-color: rgba(255, 255, 255, 0.247);
     width: 1366px;
-    border-style: solid;
-    border-color: black;
+    border: solid black;
+    margin: auto
 }
 
 
-img.displayed{
-    display: block;
-    margin-left: 15px;
-    margin-right: auto;
-    float: left;
-    margin-top: 20px;
-    border-radius: 5%;
-}
-
-#conteudo{  
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}
-
-#conteudo h1{
-    font-size: 18px
-}
-
-#conteudo p{
-    font-size: 14px;
-    line-height: 2px;
-}
+/* MENU */
 
 #menu ul{
     padding:10px;
@@ -55,7 +38,6 @@ img.displayed{
     padding: 2px 10px;
     color: white;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
 
@@ -64,144 +46,83 @@ img.displayed{
     border-bottom: 2px solid white
 }
 
+
+/* INDEX */
+
+img.displayed{
+    display: block;
+    margin-left: 15px;
+    margin-right: auto;
+    float: left;
+    margin-top: 20px;
+    border-radius: 5%;
+}
+
+#perfil{  
+    display: block;
+    color: black;
+}
+
+#perfil h1{
+    font-size: 18px
+}
+
+#perfil p{
+    font-size: 14px;
+    line-height: 2px;
+}
+
 #info{
     float: left;
     margin-left: 15px;
     margin-top: 70px
 }
 
-#sobremim{
+#bio{
     display: block;
     padding: 10px;
     margin-top: 130px;
-    font-family: Arial, Helvetica, sans-serif;
     color: black;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-#pets{
-    border-style: solid;
-    border-color: black;
-    margin-right: 80px;
-    margin-left: 80px;
-    margin-bottom: 20px;
-    padding-bottom: 23%;
-    margin-bottom: 20px;
+
+/* SOBRE MIM */
+
+#destaques{
+    background: #FFF;
+    height: 310px;
+    margin-top: 20px;
 }
 
-#pets h1{
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 15px;
-}
-
-#hobbies{
-    border-style: solid;
-    border-color: black;
-    margin-right: 80px;
-    margin-left: 80px;
-    margin-bottom: 20px;
-    padding-bottom: 23%;
-    margin-bottom: 20px;
-}
-
-#hobbies h1{
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 15px;
-}
-
-#amigos{
-    border-style: solid;
-    border-color: black;
-    margin-right: 80px;
-    margin-left: 80px;
-    margin-bottom: 20px;
-    padding-bottom: 23%;
-    margin-bottom: 20px;
-}
-
-#amigos h1{
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 15px;
-}
-
-#artistas{
-    margin-top: 15px;
-    border-style: solid;
-    border-color: black;
-    margin-right: 80px;
-    margin-left: 80px;
-    margin-bottom: 20px;
-    padding-bottom: 42%;
-    margin-bottom: 20px;
-}
-
-#artistas h1{
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 15px;
-}
-
-#albums{
-    border-style: solid;
-    border-color: black;
-    margin-right: 80px;
-    margin-left: 80px;
-    margin-bottom: 20px;
-    padding-bottom: 23%;
-    margin-bottom: 20px;
-    padding-bottom: 42%;
-}
-
-#albums h1{
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 15px;
-}
-
-img.albumone{
-    display: block;
-    margin-left: 80px;
-    margin-right: 10px;
+.cols {
+    padding: 3px;
+    width: 335px;
     float: left;
-    margin-top: 10px;
-    border-radius: 5%;
+    text-align: center;
 }
 
-img.albumtwo{
-    display: block;
-    margin-left: 80px;
-    margin-right: 10px;
-    float: left;
-    margin-top: 10px;
-    border-radius: 5%;
+#destaques a{
+    text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
 }
 
-img.album{
-    display: block;
-    margin-right: 10px;
-    float: left;
-    margin-top: 10px;
-    border-radius: 5%;
+#destaques img{
+    margin-bottom: 15px;
+    border-radius: 5px;
 }
+
+/* ACADÊMICO */
+
+#academico{
+    margin-bottom: 100px;
+}
+
+
+/* RODAPÉ */
 
 footer{
     background-color: #000000;
@@ -209,11 +130,11 @@ footer{
 }
 
 footer h1{
-    font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     margin-left: 5px;
     text-decoration-style: bold;
     font-size: 15px;
 }
+
 
 

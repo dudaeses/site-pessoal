@@ -115,12 +115,42 @@ img.displayed{
     border-radius: 5px;
 }
 
+
+/*HOBBIES*/
+
+
+/*MAXZEMA*/
+
+#fotos{
+    width: 850px;
+    border-left: solid #000000;
+    border-right: solid #000000;
+    background: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 85px;
+    margin: auto
+}
+
+#fotos img{
+    border-radius: 5px;
+}
+
+
 /* ACADÊMICO */
 
 #academico{
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
+#conteudo {
+    width: 9px;
+    border-left: 4px solid #000000;
+    border-right: 4px solid rgb(0, 0, 0);
+    background: #fff;
+    padding: 30px 32px;
+    margin:auto
+}
 
 /* RODAPÉ */
 
